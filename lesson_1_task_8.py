@@ -1,5 +1,6 @@
-def func():
-    a = input()
-    print(a, end="")
+def func(num):
+    print(num, end = '')
+
+num = str(input())
 for i in range(11):
-    func()
+    func(num[i])
